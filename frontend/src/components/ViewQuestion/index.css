@@ -1,0 +1,71 @@
+.main-desc{
+    display:flex;
+    width:100%;
+    /* background-color: aqua; */
+    font-size: 1.2rem;
+}
+.info{
+    display: flex;
+    align-items: center;
+    font-size:small;
+}
+.info >p{
+    color:rgba(0,0,0,0.4);
+    margin:0 10px;
+}
+.info >p >span{
+    color:rgba(0,0,0,0.8);
+    margin:0 5px;
+}
+.arrow {
+    font-size:1.5rem;
+    color:rgba(0,0,0,0.8);
+    margin:0,5px;
+}
+.all-options >.MuiSvgIcon-root{
+    color:rgba(0,0,0,0.25);
+    font-size:large;
+    margin:5px 0;
+}
+.comments{
+    margin:10px 0;
+    width:90%;
+    margin-left:auto;
+}
+.comment{
+    display:flex;
+    flex-direction:column;
+    /* background-color: aqua; */
+    font-size:0.9rem;
+    padding:10px;
+    border-bottom:1px solid#eee;
+}
+.comment >p{
+    margin:10px 0px;
+}
+.comment >p > span{
+    padding:3px;
+    background-color: #0151f028;
+    color:#0151f0d8;
+    border-radius: 2px;
+}
+.comments >p{
+    margin-left:-35px;
+    margin-top:20px;
+    font-size:small;
+    cursor:pointer;
+    color:rgba(0,0,0,0.4);
+}
+.comments>p:hover{
+    color:#0151f0d8
+}
+.question-answer >p{
+    margin:2px;
+    padding:5px;
+    margin-left: 12px;
+}
+pre{
+    display:flex;
+    width:90px;
+    flex-wrap:wrap;
+}

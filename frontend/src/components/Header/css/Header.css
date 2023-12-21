@@ -1,0 +1,105 @@
+header
+{
+    width:100%;
+    height:30%;
+    min-height:8vh;
+    background-color: rgba(136, 215, 215, 0.897);
+    /* max-width:fit-content; */
+    top :0px;
+    z-index:100000;
+    display:flex;
+    position:sticky;
+}
+.header-container{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    /* height:10px; */
+    align-items:center;
+    justify-content: space-around;
+    background-color: rgb(194, 217, 214);
+    box-shadow:0px 0.5px 8px rgba(0, 0, 0, 0.897);
+}
+.header-left{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin:0 10px;
+}
+.header-left > img{
+    width:150px;
+    object-fit:contain;
+    padding:0;
+    cursor:pointer;
+}
+.header-left > h3{
+    font-weight: 400;
+    font-size:14px;
+    margin:0px 10px;
+    padding:5px 10px;
+    cursor:pointer;
+    /* margin:0px 10px; */
+}
+.header-left > h3:hover{
+    background: rgb(211, 168, 168);
+    border-radius:35px;
+}
+.header-middle{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.header-search-container{
+    /* width:170%; */
+    display:flex;
+    padding:10px 10px;
+    margin-right:10px;
+    background-color: #fff;
+    border-radius:15px;
+    border:1px solid rgba(34,34,34,0.233);
+}
+.header-search-container > input{
+    border:none;
+    width:100%;
+    margin-left:5px;
+    outline:none;
+}
+.header-search-container > .MuvSvgIcon-root{
+    color:#ccc;
+}
+.display-right{
+    display:flex;
+}
+.header-right-container{
+    display:flex;
+    align-items:center;
+    padding:5px 10px;
+}
+.header-right-container > .MuiSvgIcon-root{
+    color:rgba(0, 0, 0, 0.534);
+    padding:10px 5px;
+    margin:0px 5px;
+    cursor:pointer;
+}
+.header-right-container > .MuiSvgIcon-root:hover{
+    background-color:#ddd;
+    color:#000;
+}
+/* FOR Responsiviness in small screen */
+@media screen and (max-width:768px){
+    .header-middle{
+        display:none;
+    }
+}
+@media screen and (min-width:768px)
+{
+    .header-middle{
+        /* search-bar-will-according */
+        width:calc(20*2vw)
+    }
+    .header-search-container{
+        width:100%;
+    }
+}
+
+

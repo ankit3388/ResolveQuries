@@ -1,0 +1,12 @@
+.stack-index{
+    display:flex;
+    /* background-color:rgb(245, 248, 248); */
+    min-height:85vh;
+    min-width:fit-content;
+}
+.stack-index-content{
+    display:flex;
+    width:100%;
+    justify-content:center;
+
+}
